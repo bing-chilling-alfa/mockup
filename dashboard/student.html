@@ -95,7 +95,104 @@
 
         <v-main class="grey lighten-4">
           <v-container>
-            <h1>Studenten Dashboard</h1>
+            <v-row>
+              <v-col cols="12" md="6" lg="3" order="1" order-lg="0">
+                <v-card>
+                  <v-toolbar dense dark flat color="blue darken-4">
+                    <v-toolbar-title> Tijdlijn </v-toolbar-title>
+                  </v-toolbar>
+                  <v-card-text>
+                    <v-timeline dense class="ml-n10">
+                      <v-timeline-item small>
+                        <v-alert color="red darken-4" dark>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Tempora tempore reiciendis autem
+                            necessitatibus quo obcaecati in alias voluptatum
+                            cumque officiis.
+                          </p>
+                          <v-chip small light color="white"
+                            >14/1/2022 om 09:00</v-chip
+                          >
+                        </v-alert>
+                      </v-timeline-item>
+                    </v-timeline>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+              <v-col cols="12" lg="6" order="-1">
+                <v-row>
+                  <v-col cols="12">
+                    <v-card>
+                      <v-toolbar dense dark flat color="blue darken-4">
+                        <v-toolbar-title> Stagebedrijf </v-toolbar-title>
+                      </v-toolbar>
+                      <v-card-text>
+                        <v-list>
+                          <v-list-item>
+                            <v-list-item-content>
+                              <v-list-item-title> Script </v-list-item-title>
+                              <v-list-item-subtitle>
+                                Naam
+                              </v-list-item-subtitle>
+                            </v-list-item-content>
+                          </v-list-item>
+                          <v-list-item>
+                            <v-list-item-content>
+                              <v-list-item-title>
+                                Europaweg 31, 9723 AS Groningen
+                              </v-list-item-title>
+                              <v-list-item-subtitle>
+                                Adres
+                              </v-list-item-subtitle>
+                            </v-list-item-content>
+                          </v-list-item>
+                        </v-list>
+                      </v-card-text>
+                    </v-card>
+                  </v-col>
+                  <v-col cols="12">
+                    <v-card>
+                      <v-toolbar dense dark flat color="blue darken-4">
+                        <v-toolbar-title> School </v-toolbar-title>
+                      </v-toolbar>
+                      <v-card-text>
+                        <v-list>
+                          <v-list-item>
+                            <v-list-item-content>
+                              <v-list-item-title>
+                                Alfa-college
+                              </v-list-item-title>
+                              <v-list-item-subtitle>
+                                Naam
+                              </v-list-item-subtitle>
+                            </v-list-item-content>
+                          </v-list-item>
+                          <v-list-item>
+                            <v-list-item-content>
+                              <v-list-item-title>
+                                Boumaboulevard 573, 9723 ZS Groningen
+                              </v-list-item-title>
+                              <v-list-item-subtitle>
+                                Adres
+                              </v-list-item-subtitle>
+                            </v-list-item-content>
+                          </v-list-item>
+                        </v-list>
+                      </v-card-text>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </v-col>
+              <v-col cols="12" md="6" lg="3">
+                <v-card>
+                  <v-toolbar dense dark flat color="blue darken-4">
+                    <v-toolbar-title> Inleveren </v-toolbar-title>
+                  </v-toolbar>
+                  <v-form></v-form>
+                </v-card>
+              </v-col>
+            </v-row>
           </v-container>
         </v-main>
       </v-app>
